@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android">
+    <!--
+           AlertDialog permettant de choisir une photo dans le répertoire du
+           téléphone, et d'en prendre une directement avec le téléphone.
+       -->
+
+    <LinearLayout
+        android:background="@android:color/white"
+        android:gravity="center"
+        android:padding="20dp"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/camera_pick"
+            android:layout_weight="1"
+            android:src="@drawable/icon_camera_pick"
+            android:layout_width="60dp"
+            android:layout_height="60dp" />
+
+        <ImageView
+            android:id="@+id/gallery_pick"
+            android:layout_weight="1"
+            android:src="@drawable/icon_gallery_pick"
+            android:layout_width="60dp"
+            android:layout_height="60dp" />
+
+    </LinearLayout>
+</layout>

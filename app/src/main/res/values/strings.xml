@@ -1,0 +1,78 @@
+<resources>
+    <string name="app_name">GreatAlumni</string>
+
+
+    <!--API-->
+    <string name="facebook_app_id">1765601310169433</string>
+    <string name="fb_login_protocol_scheme">fb1765601310169433</string>
+    <string name="com.twitter.sdk.android.CONSUMER_KEY">nk02m5V1uLaVA9bNflWeDZpNj</string>
+    <string name="com.twitter.sdk.android.CONSUMER_SECRET">3mePLHbik7HYI8Xyi2olITJObthZmyrza0ppS9pSJ3gkkh4Grc</string>
+
+    <!--SigninActivity-->
+    <string name="sign_in">Se connecter avec</string>
+    <string name="create_account">Créer un compte normal</string>
+    <string name="email_and_password">Email et Mot de passe</string>
+    <string name="tap_here">(Tap here)</string>
+    <string name="email">Email</string>
+    <string name="password">Mot de passe</string>
+    <string name="done">Entrer</string>
+    <string name="welcome">Bienvenu</string>
+    <string name="error">Erreur(</string>
+    <string name="empty_field">Champs vide</string>
+    <string name="loading">Chargement, attendez svp...</string>
+    <string name="phone">Téléphone</string>
+    <string name="twitter">Twitter</string>
+    <string name="facebook">Facebook</string>
+    <string name="google">Google</string>
+    <string name="phone_sms">SMS Téléphone</string>
+
+    <!--ProfileSetupActivity-->
+    <string name="nickname">Surnom</string>
+    <string name="photo_tv">Appuyer pour choisir une photo</string>
+
+    <!--ProfileFragment-->
+    <string name="home">Accueil</string>
+    <string name="post_example">Lorem ipsum perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque
+        laudantium, totam rem aperiam,
+        eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</string>
+
+    <string name="like_cnt">%1$d J\'aime</string>
+    <string name="view_cnt">%1$d Vue</string>
+    <string name="comment_cnt">%1$d Commentaires</string>
+
+    <!--AddPostDialog-->
+    <string name="post">Poster</string>
+
+    <!--PostDetailActivitytail-->
+    <string name="show_likes">J\'aime</string>
+    <string name="show_comments">Commentaires</string>
+    <string name="type_your_comment">Entrez votre commentaire</string>
+
+    <!--Profile-->
+    <string name="follow">Follow</string>
+    <string name="you">You</string>
+    <string name="friend">Friend</string>
+    <string name="new_friend">New Friend</string>
+    <string name="remove_friend">Removed from friends</string>
+
+    <string name="only_friends">Juste Amis</string>
+    <string name="select_photo">Choisir photo</string>
+
+    <string name="message">Message</string>
+    <string name="send">Envoyer</string>
+
+    <string name="users">Utilisateurs</string>
+    <string name="chats">Chats</string>
+    <string name="profile_setup">Paramètres</string>
+
+    <string name="wrong">Quelque chose s\'est passé</string>
+    <string name="google_trouble">Google troubles(</string>
+    <string name="twitter_trouble">Twitter troubles(</string>
+    <string name="facebook_trouble">Facebook troubles(</string>
+    <string name="server_trouble">Server troubles(</string>
+
+    <string name="google_loading">Attente de réponse de google</string>
+    <string name="server_loading">Waiting for server response...</string>
+    <string name="phone_loading">Waiting for sms with code...</string>
+
+</resources>

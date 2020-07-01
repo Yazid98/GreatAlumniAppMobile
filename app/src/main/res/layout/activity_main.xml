@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <!--
+        Le main activity est constitué d'un viewPager qui permet de switcher
+        entre les différents fragment que constituent le TabLayout.
+    -->
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <androidx.viewpager.widget.ViewPager
+            android:id="@+id/view_pager"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+
+        <com.google.android.material.tabs.TabLayout
+            android:id="@+id/tab_layout"
+            android:layout_weight="0"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:background="@android:color/white"
+            app:tabSelectedTextColor="@color/colorAccentDark"
+            app:tabTextColor="@color/colorPrimaryDarkBlue"
+            app:tabMode="fixed"
+            app:tabGravity="fill"/>
+
+    </LinearLayout>
+</layout>
